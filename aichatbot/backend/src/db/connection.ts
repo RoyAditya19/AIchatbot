@@ -10,7 +10,7 @@ async function connectToDatabase() {
 
 async function disconnectFromDatabase() {
   try {
-    await disconnect();
+    await disconnect()
   } catch (error) {
     console.log(error);
     throw new Error("Could not Disconnect From MongoDB");
